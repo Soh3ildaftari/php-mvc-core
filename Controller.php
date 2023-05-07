@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace mute\mvc;
 /**
  * Summary of Router
  * @author MasterMute <soheilsoheili1113@gmail.com>
@@ -9,7 +9,7 @@ class Controller{
     public $layout = 'main';
     /**
      * Summary of middlewares
-     * @var array app\core\middlewares\BaseMiddleware[]
+     * @var array mute\mvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [] ;
     public string $action = '';

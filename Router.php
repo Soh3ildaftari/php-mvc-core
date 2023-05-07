@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace mute\mvc;
 /**
  * Summary of Router
  * @author MasterMute <soheilsoheili1113@gmail.com>
@@ -48,7 +48,7 @@ class Router
             return $this->view->renderView($callback);
             }
         if (is_array($callback)){
-            /** @var $controller app\core\Controller */
+            /** @var $controller mute\mvc\Controller */
             $controller =& Application::$app->controller;
             $callback[0] = new $callback[0](); 
             $controller = $callback[0];

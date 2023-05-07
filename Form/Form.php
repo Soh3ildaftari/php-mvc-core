@@ -1,11 +1,11 @@
 <?php 
-namespace app\core\form;
+namespace mute\mvc\form;
 /**
  * Summary of Form
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) $CURRENT_YEAR
  */
-use app\core\Model;
+use mute\mvc\Model;
 class Form
 {
     public static function begin($action , $method)

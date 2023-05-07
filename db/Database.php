@@ -1,11 +1,11 @@
 <?php
-namespace app\core\db;
+namespace mute\mvc\db;
 /**
  * Summary of Database
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) 2023
  */
-use app\core\Application;
+use mute\mvc\Application;
 use PDO;
 class Database
 {

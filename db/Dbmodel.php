@@ -1,12 +1,12 @@
 <?php
-namespace app\core\db;
+namespace mute\mvc\db;
 /**
  * Summary of Dbmodel
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) 2023
  */
-use app\core\Application;
-use app\core\Model;
+use mute\mvc\Application;
+use mute\mvc\Model;
 abstract class Dbmodel extends Model
 {
     //Declare The table u want work on it  

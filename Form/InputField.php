@@ -1,11 +1,11 @@
 <?php
-namespace app\core\form;
+namespace mute\mvc\form;
 /**
  * Summary of InputField
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) 2023
  */
-use app\core\Model;
+use mute\mvc\Model;
 class InputField extends BaseField
 {
     public const TYPE_TEXT = 'text';

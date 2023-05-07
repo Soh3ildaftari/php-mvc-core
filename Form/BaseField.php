@@ -1,11 +1,11 @@
 <?php
-namespace app\core\form;
+namespace mute\mvc\form;
 /**
  * Summary of BaseField
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) 2023
  */
-use app\core\Model;
+use mute\mvc\Model;
 abstract class BaseField
 {
     public Model $model;

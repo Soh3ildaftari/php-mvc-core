@@ -1,5 +1,5 @@
 <?php
-namespace app\core;
+namespace mute\mvc;
 /**
  * Summary of View
  * @author MasterMute <soheilsoheili1113@gmail.com>

@@ -1,5 +1,5 @@
 <?php
-namespace app\core\middlewares;
+namespace mute\mvc\middlewares;
 /**
  * Summary of BaseMiddleware
  * @author MasterMute <soheilsoheili1113@gmail.com>

@@ -1,12 +1,12 @@
 <?php
-namespace app\core\middlewares;
+namespace mute\mvc\middlewares;
 /**
  * Summary of AuthMiddleware
  * @author MasterMute <soheilsoheili1113@gmail.com>
  * @copyright (c) 2023
  */
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use mute\mvc\Application;
+use mute\mvc\exception\ForbiddenException;
 class AuthMiddleware extends BaseMiddleware 
 {
     public array $actions;
