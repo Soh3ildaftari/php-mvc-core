@@ -1,0 +1,15 @@
+{
+    "name": "mute/mvc-core",
+    "autoload": {
+        "psr-4": {
+            "Mute\\MvcCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Soheil Daftari",
+            "email": "soheilsoheili1113@gmail.com"
+        }
+    ],
+    "require": {}
+}
