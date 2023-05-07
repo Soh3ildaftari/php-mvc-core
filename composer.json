@@ -1,5 +1,5 @@
 {
-    "name": "mute/mvc-core",
+    "name": "soheildaftari/mvc-core",
     "autoload": {
         "psr-4": {
             "Mute\\MvcCore\\": "src/"
