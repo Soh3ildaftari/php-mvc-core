@@ -2,7 +2,7 @@
     "name": "soheildaftari/mvc-core",
     "autoload": {
         "psr-4": {
-            "Mute\\MvcCore\\": "src/"
+            "mute\\mvc\\": "./"
         }
     },
     "authors": [
